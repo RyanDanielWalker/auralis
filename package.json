@@ -1,0 +1,12 @@
+{
+  "name": "auralis",
+  "version": "1.0.0",
+  "description": "AI-Powered Music Generation Playground built with Next.js, FastAPI, and Tone.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
