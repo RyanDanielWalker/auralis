@@ -1,0 +1,15 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Track {
+  id        String   @id @default(cuid())
+  prompt    String
+  url       String
+  createdAt DateTime @default(now())
+}

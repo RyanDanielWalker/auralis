@@ -4,13 +4,17 @@
   "description": "AI-Powered Music Generation Playground built with Next.js, FastAPI, and Tone.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:server": "cd apps/server && uvicorn main:app --reload"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.18.0",
     "framer-motion": "^12.23.24",
+    "prisma": "^6.18.0",
     "wavesurfer.js": "^7.11.0"
   }
 }
